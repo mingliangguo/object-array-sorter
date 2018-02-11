@@ -1,0 +1,28 @@
+{
+    "name": "object-array-sorter",
+    "version": "0.0.1",
+    "description": "A simple utility to recursively sort all array properties in an object.",
+    "main": "index.js",
+    "scripts": {
+        "tests": "mocha tests --recursive --watch",
+        "start": "npm run tests"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "concurrently": "^1.0.0",
+        "js-yaml": "^3.10.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mingliangguo/object-array-sorter.git"
+    },
+    "keywords": [
+        "sorter"
+    ],
+    "author": "Gary Guo <“guogoal@gmail.com”> (https://github.com/mingliangguo)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mingliangguo/object-array-sorter/issues"
+    },
+    "homepage": "https://github.com/mingliangguo/object-array-sorter#readme"
+}
