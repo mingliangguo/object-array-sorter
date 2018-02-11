@@ -30,7 +30,7 @@ let obj = {
     c: [5, 2, 9]
 };
 
-objectSorter(obj);
+objectArraySorter(obj);
 
 console.log(JSON.stringify(obj, null, 2));
 
@@ -53,7 +53,7 @@ Output should be
 
 ## Tests
 
-  `npm test`
+  `npm run tests`
 
 ## LICENSE
 
