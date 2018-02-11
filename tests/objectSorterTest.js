@@ -13,9 +13,9 @@ describe('Test obbjectSorter for a given json object', () => {
 
         objectSorter(obj);
 
-        expect(obj.c.length).to.equal(3);
-        expect(obj.c[0]).to.equal('a');
-        expect(obj.c[2]).to.equal('z');
+        expect(obj.b.length).to.equal(3);
+        expect(obj.b[0]).to.equal('a');
+        expect(obj.b[2]).to.equal('z');
     });
 
     it('Given object has nested array property at lower level, the default sort function should sort the items in the array.', function () {
